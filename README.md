@@ -38,6 +38,15 @@ Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 |11.pos/POS_tagging|explores part of speech tagging: categorizing words in a text (corpus) in correspondence with a particular part of speech, depending on the definition of the word and its context.|
 |12.ner/ToponymResolution|explores named entity recognition through the lens of toponym resolution, using NER to extract a list of geopolitical place names in a text, and then plotting those locations on a map.|
 |12.ner/ExtractingSocialNetworks|explores the task of extracting social networks from text: for a given set of people mentioned in a text, can we extract a social network that connects them? In this social network, people are the nodes, and the edges between them are weighted by the strength of their connection. How you define what "connection" means here is up to you (within reason).|
+|13.mwe/JustesonKatz95|Explores identifying multiword expressions using the part-of-speech filtering technique of Justeson and Katz (1995), "Technical terminology: some linguistic properties and an algorithm for identification in text". Functionality to replace multiword expressions with a single token (poor man -> poor_man)|
+|14.syntax/SyntacticRelations|explores dependency parsing by identifying the actions and objects that are characteristically associated with male and female characters.|
+|15.coref/CorefSetup|this notebook explores the neuralcoref spacy package. *Only compatible with spacy 2|
+|15.coref/ExtractTimeline|explores coreference resolution for the task of timeline generation: for a given biography on Wikipedia, can you extract all of the events associated with the people mentioned and create one timeline for each person.|
+|16.ie/DependencyParsing|explores relation extraction by measuring common dependency paths between two entities that hold a given relation to each other -- here, the relation "born_in" between a PER entity and an GPE entity, using data from Wikipedia biographies.|
+|17.sequence_alignment/Smith-Waterman-Alignment|explores the Smith-Waterman algorithm to find local regions of alignment between two pieces of text.|
+
+* add key images
+* add relavent definitions
 
 
 
