@@ -3,6 +3,7 @@
 Course materials for "Applied Natural Language Processing" (INFO 256, Fall 2021, UC Berkeley)
 All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 
+* Relavent terms
 
 |Term|Definition|
 |---|---|
@@ -13,6 +14,8 @@ All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.htm
 |Part of Speech Tagging|labeling of the words in a text according to their word types (noun, adjective, adverb, verb, etc.)|
 |Type-token ratio|measure of text complexity between two equal lengthed documents|
 |Log odds ratio|common method for finding distinctive terms in two datasets, optionality for including priors of word frequency from a reference corpus|
+
+* Notebook documentation
 
 |Notebook|Description|
 |---|---|
