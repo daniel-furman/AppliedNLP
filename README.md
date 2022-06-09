@@ -4,6 +4,16 @@ Course materials for "Applied Natural Language Processing" (INFO 256, Fall 2021,
 All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 
 
+* Relavent definitions
+  *  Corpus: collection of texts
+  *  Tokenization: breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements
+  *  Lemmatization: map tokens to their base word or a root word, which forms the basis for other words. For example, the lemma of the words “playing” and “played” is “play”
+  *  Stemming: map tokens to an equal or smaller form ot the word
+  *  Part of Speech Tagging: labeling of the words in a text according to their word types (noun, adjective, adverb, verb, etc.)
+  *  Type-token ratio: measure of text complexity between two equal lengthed documents
+  *  Log odds ratio: common method for finding distinctive terms in two datasets, optionality for including priors of word frequency from a reference corpus
+  *  
+
 |Notebook|Description|
 |---|---|
 |1.words/EvaluateTokenizationForSentiment|The impact of tokenization choices on sentiment classification.|
@@ -22,7 +32,7 @@ All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.htm
 |5.eda/WordSenseClustering|Inferring distinct word senses using KMeans clustering over BERT representations|
 |5.eda/Haiku KMeans|explore text representation in clustering by trying to group haiku and non-haiku poems into two distinct clusters|
 |6.classification/Classification|explores feature engineering for text classification, training a regularized logistic regression model with scikit-learn for the binary classification task of predicting a movie's genre.|
-|6.classification/FeatureExploration|explores feature engineering for text classification with dictionary features and unigram features.)|
+|6.classification/FeatureExploration|explores feature engineering for text classification with dictionary features and unigram features.|
 |6.classification/Hyperparameters|explores text classification, introducing a majority class baseline and analyzing the effect of hyperparameter choices on accuracy.|
 |7.regression/Regularization|This notebook explores linear regression with L2 (ridge) and L1 (lasso) regularization.|
 |8.tests/Bootstrap|explores the use of the bootstrap to create confidence intervals for any statistic of interest that is estimated from data.|
@@ -45,8 +55,6 @@ All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.htm
 |16.ie/DependencyParsing|explores relation extraction by measuring common dependency paths between two entities that hold a given relation to each other -- here, the relation "born_in" between a PER entity and an GPE entity, using data from Wikipedia biographies.|
 |17.sequence_alignment/Smith-Waterman-Alignment|explores the Smith-Waterman algorithm to find local regions of alignment between two pieces of text.|
 
-* add key images
-* add relavent definitions
 
 
 
