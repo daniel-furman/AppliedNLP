@@ -14,6 +14,11 @@ All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.htm
 |Part of Speech Tagging|labeling of the words in a text according to their word types (noun, adjective, adverb, verb, etc.)|
 |Type-token ratio|measure of text complexity between two equal lengthed documents|
 |Log odds ratio|common method for finding distinctive terms in two datasets, optionality for including priors of word frequency from a reference corpus|
+|Word embedding|a real number, vector representation of a word|
+|Sequence embedding|a real number, vector representation of a sequence / sentence|
+|Word senses|one of the meanings of a word|
+|WordNet|a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept|
+|Coreference|two or more expressions refer to the same person or thing, useful for timeline generation for example|
 
 ## Notebook documentation
 
