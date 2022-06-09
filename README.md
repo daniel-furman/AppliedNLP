@@ -4,15 +4,15 @@ Course materials for "Applied Natural Language Processing" (INFO 256, Fall 2021,
 All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 
 
-* Relavent definitions
-  *  Corpus: collection of texts
-  *  Tokenization: breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements
-  *  Lemmatization: map tokens to their base word or a root word, which forms the basis for other words. For example, the lemma of the words “playing” and “played” is “play”
-  *  Stemming: map tokens to an equal or smaller form ot the word
-  *  Part of Speech Tagging: labeling of the words in a text according to their word types (noun, adjective, adverb, verb, etc.)
-  *  Type-token ratio: measure of text complexity between two equal lengthed documents
-  *  Log odds ratio: common method for finding distinctive terms in two datasets, optionality for including priors of word frequency from a reference corpus
-  *  
+|Term|Definition|
+|---|---|
+|Corpus|collection of texts|
+|Tokenization|breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements|
+|Lemmatization|map tokens to their base word or a root word, which forms the basis for other words. For example, the lemma of the words “playing” and “played” is “play”|
+|Stemming|map tokens to an equal or smaller form ot the word|
+|Part of Speech Tagging|labeling of the words in a text according to their word types (noun, adjective, adverb, verb, etc.)|
+|Type-token ratio|measure of text complexity between two equal lengthed documents|
+|Log odds ratio|common method for finding distinctive terms in two datasets, optionality for including priors of word frequency from a reference corpus|
 
 |Notebook|Description|
 |---|---|
@@ -50,7 +50,7 @@ All Lectures + Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.htm
 |12.ner/ExtractingSocialNetworks|explores the task of extracting social networks from text: for a given set of people mentioned in a text, can we extract a social network that connects them? In this social network, people are the nodes, and the edges between them are weighted by the strength of their connection. How you define what "connection" means here is up to you (within reason).|
 |13.mwe/JustesonKatz95|Explores identifying multiword expressions using the part-of-speech filtering technique of Justeson and Katz (1995), "Technical terminology: some linguistic properties and an algorithm for identification in text". Functionality to replace multiword expressions with a single token (poor man -> poor_man)|
 |14.syntax/SyntacticRelations|explores dependency parsing by identifying the actions and objects that are characteristically associated with male and female characters.|
-|15.coref/CorefSetup|this notebook explores the neuralcoref spacy package. *Only compatible with spacy 2|
+|15.coref/CorefSetup|this notebook explores the neuralcoref spacy package. *Only compatible with spacy 2*|
 |15.coref/ExtractTimeline|explores coreference resolution for the task of timeline generation: for a given biography on Wikipedia, can you extract all of the events associated with the people mentioned and create one timeline for each person.|
 |16.ie/DependencyParsing|explores relation extraction by measuring common dependency paths between two entities that hold a given relation to each other -- here, the relation "born_in" between a PER entity and an GPE entity, using data from Wikipedia biographies.|
 |17.sequence_alignment/Smith-Waterman-Alignment|explores the Smith-Waterman algorithm to find local regions of alignment between two pieces of text.|
